@@ -129,12 +129,12 @@ header h1{
 
     .foot h3{
        text-align:center;
-       padding-top:30%;
+       padding-top:10%;
        
     }
     .foot p{
         text-align:center;
-       
+       padding-left:5%;
        
      }
     .foot a {
@@ -167,8 +167,14 @@ header h1{
     .back{
 visibility:visible;
 color:black;
-
+float:right;
+padding-top:3%;
     }
+
+    .fleft{
+    float:left;
+    }
+    
    
 
 @media (min-width:768px){
@@ -319,6 +325,7 @@ header p{
                 
                 
             } 
+          
             footer a:link{
       
                 text-decoration:none;
@@ -333,8 +340,19 @@ header p{
             .back{
                 visibility:hidden;
                 color:black;
+                float:left;
+                margin-right:45%;
                 
                     }
+                   
+         
+                     .fleft{
+         
+                     float:left;    
+                     }
+
+                   
+                   
                    
 
         }
@@ -344,7 +362,8 @@ header p{
 @media (min-width:1024px){
     header h1{
         margin-top:0%;
-    
+        float:left;
+        padding:5%;
     }
     .name{
         width: 100%;
@@ -464,7 +483,7 @@ header p{
 
         .foot {
             width:100%;
-            background-color:#edebed;
+            background-color:#c4c4c4;
 
         }
         .foot a {
@@ -503,8 +522,13 @@ header p{
 
             .back{
                visibility: hidden;
-                
+                float:left;
     
+            }
+
+            .fleft{
+
+            float:left;    
             }
         }
 
